@@ -55,17 +55,6 @@ HEADERS
                     <h1 class="display-4 font-weight-bold"><strong>Harga dasar beserta <i>add-ons</i> tambahan</strong></h1>
                     <p class="text-block mb-4">Tanpa biaya transaksi. Tanpa biaya tersembunyi di akhir <i>checkout.</i></p>
                 </div>
-                <div class="col-md-6 pt-4 pb-4 mobile-hidden">
-                    <p class="card-title font-weight-bold pl-3 pr-3 mb-0 text-center">Harga kembali ke semula pada:</p>
-                    <div>
-                        <ul class="text-center">
-                            <li class="countdown"><span id="days"></span>hari</li>
-                            <li class="countdown"><span id="hours"></span>jam</li>
-                            <li class="countdown"><span id="minutes"></span>menit</li>
-                            <li class="countdown"><span id="seconds"></span>detik</li>
-                        </ul>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -181,31 +170,6 @@ FAQ
     <script src="assets/js/vendor/popper.min.js" type="text/javascript"></script>
     <script src="assets/js/vendor/bootstrap.min.js" type="text/javascript"></script>
     <script src="assets/js/functions.js" type="text/javascript"></script>
-    <script>
-        const second = 1000,
-            minute = second * 60,
-            hour = minute * 60,
-            day = hour * 24;
-
-        let countDown = new Date('Jun 30, 2020 00:00:01').getTime(),
-            x = setInterval(function() {    
-
-            let now = new Date().getTime(),
-                distance = countDown - now;
-
-            document.getElementById('days').innerText = Math.floor(distance / (day)),
-                document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
-                document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
-                document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
-
-            //do something later when date is reached
-            //if (distance < 0) {
-            //  clearInterval(x);
-            //  'IT'S MY BIRTHDAY!;
-            //}
-
-            }, second)
-    </script>
 
 </body>
 
