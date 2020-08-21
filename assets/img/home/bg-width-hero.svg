@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="1200px" height="899px" viewBox="0 0 1200 899" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
-    <title>Polygon</title>
+    <title>Combined Shape</title>
     <desc>Created with Sketch.</desc>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" fill="#F6F5F4">
-            <path d="M1200,0 L1200,379.838735 L1200,798.618248 C1200,853.846723 1155.22847,898.618248 1100,898.618248 L56,898.618248 C25.072054,898.618248 7.24614165e-14,873.546194 0,842.618248 L0,0 L0,0 L1200,0 Z" id="Polygon"></path>
+        <g id="Combined-Shape">
+            <g id="Mask" fill="#F6F5F4" fill-rule="nonzero">
+                <g id="Polygon">
+                    <path d="M1200,0 L1200,379.838735 L1200,798.618248 C1200,853.846723 1155.22847,898.618248 1100,898.618248 L56,898.618248 C25.072054,898.618248 0,873.546194 0,842.618248 L0,0 L0,0 L1200,0 Z"></path>
+                </g>
+            </g>
+            <path d="M1290.911,-32 L1290.911,771.884 L1133.18117,676.945181 C1025.71766,612.261974 1007.7366,444.102945 1092.06619,299.57183 L1094.65296,295.199462 L1290.911,-32 Z" fill="#43CFD6" fill-rule="nonzero"></path>
+            <circle id="Oval" fill="#FFD568" cx="-25.5" cy="-0.5" r="348.5"></circle>
         </g>
     </g>
 </svg>
